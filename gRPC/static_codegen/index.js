@@ -9,7 +9,7 @@ server.bindAsync("0.0.0.0:4000", grpc.ServerCredentials.createInsecure(), (error
     if(error) {
         console.log(error);
     } else {
-        console.log("Server listening on port 4000");
+        console.log("Listening on port 4000");
         server.start();
     }
 });
